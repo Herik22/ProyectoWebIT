@@ -1,0 +1,60 @@
+/* VALORE POR DEFECTO ------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #51b7ef;
+    /*color: black;*/
+}
+/* ------------------------------- */
+
+.imgHeader{
+    width: 50px;
+    height: 50px;
+}
+
+.imgHeader:hover {
+    transform: scale(1.5,1.5);
+    transition: transform 1s;
+}
+
+
+/* COLORES DE FONDO  -------------------- */
+.bg-blue-Container{
+    background-color: #047997;
+}
+.bg-blue2-Container{
+    background-color: #1EBFD8;    ;
+}
+
+.bg-grey-Container{
+    background-color: #7B7F8E;
+}
+
+.bg-green{
+    background-color: #5edb86;
+}
+
+.bg-Gradian-Tittle{
+    background: rgb(4,121,151);
+    background: linear-gradient(90deg, rgba(4,121,151,1) 0%, rgba(105,152,198,1) 49%, rgba(123,127,142,1) 98%);
+}
+
+.bg-Gradian2-Tittle{
+    background: rgb(4,121,151);
+    background: linear-gradient(90deg, rgba(4,121,151,1) 6%, rgba(105,152,198,1) 48%, rgba(123,127,142,1) 93%);
+}
+
+/* ---------------------------------------*/
+
+
+#headerIndex{
+    display: flex;
+    justify-content: center;
+
+    background-color: #5edb86;
+}
+
+
